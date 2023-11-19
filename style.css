@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    background: url('./susan-q-yin-yphDs-x91rE-unsplash.jpg') no-repeat;
+    background: center url('./susan-q-yin-yphDs-x91rE-unsplash.jpg') no-repeat;
+	background-size: cover;
     color: white;
     width: 50vw;
     display: flex;
@@ -15,6 +16,7 @@ header {
 
 .title-bar {
     background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 0;
     width: 100%;
     display: flex;
     position: relative;
