@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background: url('./susan-q-yin-yphDs-x91rE-unsplash.jpg') no-repeat;
+    color: white;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 20vh;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+}
